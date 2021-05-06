@@ -1,11 +1,15 @@
 import React from "react";
+import Dictionary from "./Dictionary";
 import "./App.css";
 import logo from "./logo.png";
+
 function App() {
   return (
     <div className="App">
-      <img src={logo} className="logo img-fluid" alt="logo" />
-
+      <header className="app-header">
+        <img src={logo} className="logo img-fluid" alt="logo" />
+      </header>
+      <Dictionary />
       <footer>
         Open-sourced on{" "}
         <a

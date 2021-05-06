@@ -3,10 +3,11 @@
   margin: 30px auto;
 }
 
-.App .logo {
+.app-header .logo {
   max-width: 200px;
   display: block;
   margin: 0 auto;
+  padding: 20px 0;
 }
 
 .App footer {
