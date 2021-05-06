@@ -9,7 +9,9 @@ function App() {
       <header className="app-header">
         <img src={logo} className="logo img-fluid" alt="logo" />
       </header>
-      <Dictionary />
+      <main>
+        <Dictionary />
+      </main>
       <footer>
         Open-sourced on{" "}
         <a
