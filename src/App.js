@@ -16,7 +16,11 @@ function App() {
           GitHub
         </a>{" "}
         and hosted on{" "}
-        <a href="/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://elegant-engelbart-b9c316.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Netlify
         </a>{" "}
         by{" "}
