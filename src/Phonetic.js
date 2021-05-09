@@ -2,13 +2,34 @@ import React from "react";
 import "./Phonetic.css";
 
 export default function Phonetic(props) {
-  return (
-    <div className="Phonetic">
-      <a href={props.phonetic.audio} target="_blank" rel="noopener noreferrer">
-        {" "}
-        <strong> Listen </strong>
-      </a>
-      <span className="text">{props.phonetic.text}</span>
-    </div>
-  );
+  // return (
+  //   <div className="">
+  //     <a href={props.phonetic.audio} target="_blank" ">
+  //       {" "}
+  //       <strong> Listen </strong>
+  //     </a>
+  //     <span className="">{props.phonetic.text}</span>
+  //   </div>
+  // );
+
+  function playSound() {
+    let audio = document.getElementById("audio");
+    audio.load();
+    audio.play();
+  }
+
+  if (props.phonetic.audio) {
+    return (
+      <div className="Phonetic">
+        <audio id="audio">
+          <source src={props.phonetic.audio} type="audio/mp3" />
+        </audio>
+        <a onClick={playSound} className="text">
+          {props.phonetic.text}
+        </a>
+      </div>
+    );
+  } else {
+    return null;
+  }
 }
