@@ -2,7 +2,7 @@
   margin: 20px 0;
 }
 
-.Phonetic a {
+.Phonetic button {
   border: 1px solid #0c3658;
   background-color: #ddd;
   color: #0c3658;
@@ -16,7 +16,7 @@
   transition: all 150ms ease-in-out;
 }
 
-.Phonetic a:hover {
+.Phonetic button:hover {
   background-color: #0c3658;
   border: 1px solid #0c3658;
   color: white;

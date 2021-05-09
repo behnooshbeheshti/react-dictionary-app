@@ -24,9 +24,9 @@ export default function Phonetic(props) {
         <audio id="audio">
           <source src={props.phonetic.audio} type="audio/mp3" />
         </audio>
-        <a onClick={playSound} className="text">
-          {props.phonetic.text}
-        </a>
+        <div className="text">
+          <button onClick={playSound}>{props.phonetic.text}</button>
+        </div>
       </div>
     );
   } else {
