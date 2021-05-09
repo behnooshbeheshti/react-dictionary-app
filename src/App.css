@@ -1,5 +1,5 @@
 body {
-  background-color: #fefaed;
+  background-color: white;
 }
 
 a {
@@ -12,10 +12,10 @@ a {
 }
 
 .app-header .logo {
-  max-width: 200px;
+  max-width: 500px;
   display: block;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 5px 0;
 }
 
 .App footer {
