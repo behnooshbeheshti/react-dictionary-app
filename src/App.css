@@ -4,11 +4,12 @@ body {
 
 a {
   font-weight: bold;
+  color: #01228a;
 }
 
 .App {
-  max-height: 600px;
-  margin: 30px auto;
+  max-height: 960px;
+  margin: 0 auto;
 }
 
 .app-header .logo {
