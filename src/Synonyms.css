@@ -1,0 +1,14 @@
+.Synonyms {
+  margin: 15px 0 0;
+  padding: 0;
+}
+
+.Synonyms li {
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 14px;
+  line-height: 1;
+  border: 1px solid #ddd;
+  padding: 8px 14px;
+  border-radius: 20px;
+}

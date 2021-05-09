@@ -10,7 +10,7 @@ function App() {
         <img src={logo} className="logo img-fluid" alt="logo" />
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="sunset" />
       </main>
       <footer>
         Open-sourced on{" "}
